@@ -42,7 +42,7 @@ class Song
   end
   
   def self.alphabetical
-    @@all.sort_by.reverse { |song| self.name }
+    @@all.sort_by.reverse! { |song| self.name }
   end
 
 end
