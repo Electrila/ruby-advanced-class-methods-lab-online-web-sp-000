@@ -61,6 +61,10 @@ class Song
     song_and_artist.save
   end
   
+  def self.destroy_all
+    @@all.clear
+  end
+  
 end
 
 
